@@ -9,3 +9,95 @@ body {
   color: white;
   text-align: center;
 }
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.container {
+  padding: 50px 10px;
+}
+
+input[type="text"] {
+  padding: 12px;
+  width: 60%;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #cc5200;
+}
+
+.country-info {
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 80%;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.country-info img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.country-info h3 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #ff6600;
+}
+
+.country-info p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.error-message {
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
